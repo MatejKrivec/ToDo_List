@@ -1,0 +1,47 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    height: 50%;
+    overflow-y: auto;
+}
+
+
+.formBody{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+    justify-content: center;
+}
+
+.formBody label {
+    margin-bottom: 0.5rem;
+}
+.formBody textarea {
+    max-width: 99%; 
+    width: 100%;
+    min-height: 70%;
+    height: 22rem;
+    resize: vertical;
+}
+
+.formButtons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+  
